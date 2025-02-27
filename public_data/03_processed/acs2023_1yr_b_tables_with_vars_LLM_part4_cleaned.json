@@ -1,0 +1,1251 @@
+{
+  "tables": [
+    // {
+    //   "table_id":"",
+    //   "variables": [""]
+    // },
+    {
+      "table_id": "B24126",
+      "variables": ["Occupation"] //female
+    },
+    {
+      "table_id": "B24134",
+      "variables": ["Industry"]
+    },
+    {
+      "table_id": "B24135",
+      "variables": ["Industry"] //male
+    },
+    {
+      "table_id": "B24136",
+      "variables": ["Industry"] //female
+    },
+    {
+      "table_id": "B25001",
+      "variables": ["Housing Units"]
+    },
+    {
+      "table_id": "B25002",
+       "variables": ["Occupancy Status"]
+    },
+    {
+       "table_id": "B25003",
+       "variables": ["Tenure"]
+     },
+    {
+      "table_id": "B25003A",
+       "variables": ["Tenure", "Race", "Race of Householder", "White Alone"]
+     },
+     {
+      "table_id": "B25003B",
+       "variables": ["Tenure", "Race", "Race of Householder"]
+     },
+    {
+       "table_id": "B25003C",
+       "variables": ["Tenure", "Race", "Race of Householder"]
+     },
+     {
+      "table_id": "B25003D",
+       "variables":["Tenure", "Race", "Race of Householder"]
+     },
+     {
+      "table_id": "B25003E",
+       "variables":["Tenure", "Race", "Race of Householder"]
+     },     {
+      "table_id": "B25003F",
+       "variables":["Tenure", "Race", "Race of Householder"]
+     },     {
+      "table_id": "B25003G",
+       "variables":["Tenure", "Race", "Race of Householder"]
+     },     {
+      "table_id": "B25003H",
+       "variables":["Tenure", "Race", "Race of Householder"]
+     },     {
+      "table_id": "B25003I",
+       "variables":["Tenure", "Race", "Race of Householder"]
+     },
+    {
+      "table_id": "B25004",
+      "variables": ["Vacancy Status"]
+    },
+    {
+      "table_id":"B25005",
+      "variables": ["Vacancy Status"]
+    },
+    {
+      "table_id": "B25006",
+      "variables":["Race", "Race of Householder"]
+    },
+     {
+      "table_id": "B25007",
+      "variables": ["Tenure", "Age of Householder"]
+    },
+     {
+       "table_id": "B25008",
+       "variables": ["Population in Occupied Housing Units", "Tenure"]
+      },
+    {
+      "table_id": "B25008A",
+      "variables": ["Population in Occupied Housing Units", "Tenure", "Race", "Race of Householder"]
+     },
+     {
+      "table_id": "B25008B",
+      "variables": ["Population in Occupied Housing Units", "Tenure", "Race", "Race of Householder"]
+     },
+    {
+      "table_id": "B25008C",
+      "variables": ["Population in Occupied Housing Units", "Tenure", "Race", "Race of Householder"]
+     },
+    {
+      "table_id": "B25008D",
+       "variables": ["Population in Occupied Housing Units", "Tenure", "Race", "Race of Householder"]
+    },
+    {
+      "table_id": "B25008E",
+      "variables": ["Population in Occupied Housing Units", "Tenure", "Race", "Race of Householder"]
+     },    {
+      "table_id": "B25008F",
+      "variables": ["Population in Occupied Housing Units", "Tenure", "Race", "Race of Householder"]
+     },
+    {
+       "table_id": "B25008G",
+        "variables": ["Population in Occupied Housing Units", "Tenure", "Race", "Race of Householder"]
+    },
+     {
+       "table_id": "B25008H",
+        "variables": ["Population in Occupied Housing Units", "Tenure", "Race", "Race of Householder", "White Alone, Not Hispanic or Latino Origin"]
+      },
+    {
+      "table_id":"B25008I",
+      "variables": ["Population in Occupied Housing Units", "Tenure", "Race", "Race of Householder", "Hispanic or Latino Origin"]
+    },
+    {
+      "table_id": "B25009",
+      "variables": ["Tenure", "Household Size"]
+     },
+     {
+      "table_id": "B25010",
+       "variables": ["Average Household Size", "Tenure"]
+     },
+    {
+      "table_id": "B25010A",
+       "variables": ["Average Household Size", "Tenure", "Race", "Race of Householder"]
+    },
+    {
+      "table_id": "B25010B",
+       "variables":["Average Household Size", "Tenure", "Race", "Race of Householder"]
+     },
+    {
+      "table_id": "B25010C",
+       "variables": ["Average Household Size", "Tenure", "Race", "Race of Householder"]
+     },
+    {
+       "table_id": "B25010D",
+       "variables": ["Average Household Size", "Tenure", "Race", "Race of Householder"]
+      },
+     {
+       "table_id": "B25010E",
+        "variables": ["Average Household Size", "Tenure", "Race", "Race of Householder"]
+      },
+    {
+      "table_id": "B25010F",
+       "variables": ["Average Household Size", "Tenure", "Race", "Race of Householder"]
+    },
+    {
+       "table_id":"B25010G",
+       "variables":["Average Household Size", "Tenure", "Race", "Race of Householder"]
+     },
+     {
+      "table_id": "B25010H",
+       "variables": ["Average Household Size", "Tenure", "Race", "Race of Householder", "White Alone, Not Hispanic or Latino Origin"]
+     },
+     {
+       "table_id":"B25010I",
+       "variables":["Average Household Size", "Tenure", "Race", "Race of Householder", "Hispanic or Latino Origin"]
+      },
+    {
+      "table_id": "B25011",
+        "variables": ["Tenure", "Household Type", "Age of Householder"]
+     },
+    {
+      "table_id": "B25012",
+       "variables": ["Tenure", "Presence of Own Children"]
+     },
+     {
+      "table_id": "B25013",
+       "variables": ["Tenure", "Educational Attainment of Householder"]
+     },
+    {
+       "table_id": "B25014",
+        "variables":["Tenure", "Occupants per Room"]
+     },
+     {
+      "table_id": "B25014A",
+      "variables": ["Occupants per Room", "Race", "Race of Householder"]
+      },
+    {
+       "table_id": "B25014B",
+       "variables": ["Occupants per Room", "Race", "Race of Householder"]
+     },
+    {
+      "table_id": "B25014C",
+       "variables": ["Occupants per Room", "Race", "Race of Householder"]
+     },
+     {
+      "table_id": "B25014D",
+        "variables": ["Occupants per Room", "Race", "Race of Householder"]
+      },
+     {
+      "table_id": "B25014E",
+       "variables": ["Occupants per Room", "Race", "Race of Householder"]
+     },
+     {
+      "table_id": "B25014F",
+       "variables": ["Occupants per Room", "Race", "Race of Householder"]
+     },     {
+      "table_id": "B25014G",
+       "variables": ["Occupants per Room", "Race", "Race of Householder"]
+     },     {
+      "table_id": "B25014H",
+       "variables": ["Occupants per Room", "Race", "Race of Householder"]
+     },     {
+      "table_id": "B25014I",
+       "variables": ["Occupants per Room", "Race", "Race of Householder"]
+     },
+     {
+      "table_id": "B25015",
+       "variables": ["Tenure", "Age of Householder", "Occupants per Room"],
+     },
+     {
+      "table_id": "B25016",
+       "variables": ["Tenure", "Plumbing Facilities", "Occupants per Room"],
+     },
+    {
+      "table_id": "B25017",
+       "variables": ["Number of Rooms"]
+     },
+     {
+       "table_id": "B25018",
+       "variables": ["Median Number of Rooms"]
+     },
+     {
+       "table_id": "B25019",
+        "variables": ["Aggregate Number of Rooms"]
+     },
+     {
+       "table_id": "B25020",
+        "variables":["Tenure", "Number of Rooms"]
+     },
+     {
+        "table_id": "B25021",
+        "variables": ["Tenure", "Median Number of Rooms"]
+      },
+      {
+        "table_id": "B25022",
+         "variables": ["Tenure", "Aggregate Number of Rooms"]
+      },
+    {
+      "table_id": "B25024",
+      "variables": ["Units in Structure"]
+    },
+     {
+      "table_id":"B25026",
+       "variables":["Tenure", "Year Householder Moved Into Unit"]
+     },
+     {
+        "table_id":"B25027",
+         "variables":["Mortgage Status", "Age of Householder"]
+      },
+      {
+        "table_id": "B25031",
+        "variables": ["Median Gross Rent", "Number of Bedrooms"]
+       },
+    {
+        "table_id": "B25032",
+        "variables": ["Tenure", "Units in Structure"]
+    },
+    {
+      "table_id": "B25032A",
+      "variables": ["Units in Structure", "Race", "Race of Householder"]
+     },
+    {
+      "table_id": "B25032B",
+       "variables": ["Units in Structure", "Race", "Race of Householder"]
+     },
+    {
+      "table_id": "B25032C",
+       "variables": ["Units in Structure", "Race", "Race of Householder"]
+     },
+     {
+       "table_id": "B25032D",
+       "variables":["Units in Structure", "Race", "Race of Householder"]
+     },
+    {
+       "table_id":"B25032E",
+       "variables": ["Units in Structure", "Race", "Race of Householder"]
+     },
+    {
+      "table_id": "B25032F",
+      "variables": ["Units in Structure", "Race", "Race of Householder"]
+     },
+     {
+      "table_id": "B25032G",
+       "variables": ["Units in Structure", "Race", "Race of Householder"]
+     },
+    {
+       "table_id":"B25032H",
+       "variables":["Units in Structure", "Race", "Race of Householder", "White Alone, Not Hispanic or Latino Origin"]
+     },
+    {
+      "table_id": "B25032I",
+        "variables": ["Units in Structure", "Race", "Race of Householder", "Hispanic or Latino Origin"]
+     },
+    {
+       "table_id": "B25033",
+        "variables": ["Tenure", "Units in Structure"]
+      },
+     {
+       "table_id": "B25034",
+        "variables":["Year Structure Built"]
+     },
+     {
+        "table_id": "B25036",
+         "variables":["Tenure", "Year Structure Built"]
+      },
+      {
+        "table_id": "B25037",
+         "variables":["Tenure", "Median Year Structure Built"]
+      },
+    {
+      "table_id":"B25038",
+       "variables": ["Tenure", "Year Householder Moved Into Unit"]
+     },
+     {
+        "table_id":"B25039",
+         "variables": ["Tenure", "Median Year Householder Moved Into Unit"]
+       },
+    {
+      "table_id":"B25040",
+       "variables": ["House Heating Fuel"]
+     },
+    {
+      "table_id": "B25041",
+       "variables":["Number of Bedrooms"]
+      },
+     {
+       "table_id": "B25042",
+        "variables": ["Tenure", "Number of Bedrooms"]
+     },
+     {
+        "table_id": "B25043",
+         "variables": ["Tenure", "Telephone Service Available", "Age of Householder"]
+      },
+      {
+        "table_id": "B25044",
+         "variables": ["Tenure", "Number of Vehicles Available"]
+      },
+      {
+        "table_id": "B25045",
+         "variables": ["Tenure", "Vehicles Available", "Age of Householder"]
+      },
+      {
+        "table_id": "B25046",
+         "variables": ["Tenure", "Aggregate Number of Vehicles Available"]
+      },
+      {
+        "table_id": "B25047",
+        "variables": ["Plumbing Facilities"]
+      },
+      {
+        "table_id": "B25048",
+        "variables": ["Plumbing Facilities"]
+      },
+      {
+        "table_id": "B25049",
+        "variables": ["Tenure", "Plumbing Facilities"]
+      },
+      {
+        "table_id": "B25050",
+        "variables": ["Plumbing Facilities", "Occupants per Room", "Year Structure Built"]
+      },
+      {
+       "table_id": "B25051",
+       "variables":["Kitchen Facilities"]
+    },
+    {
+      "table_id": "B25052",
+      "variables":["Kitchen Facilities"]
+     },
+     {
+        "table_id": "B25053",
+        "variables": ["Tenure", "Kitchen Facilities"]
+      },
+      {
+        "table_id": "B25054",
+        "variables": ["Kitchen Facilities", "Meals Included in Rent"]
+      },
+      {
+        "table_id": "B25055",
+        "variables": ["Meals Included in Rent", "Age of Householder"]
+      },
+      {
+        "table_id": "B25056",
+        "variables":["Contract Rent"]
+       },
+       {
+        "table_id": "B25057",
+        "variables":["Contract Rent", "Lower Contract Rent Quartile"]
+       },
+       {
+        "table_id": "B25058",
+        "variables":["Contract Rent", "Median Contract Rent"]
+       },
+       {
+        "table_id": "B25059",
+        "variables":["Contract Rent", "Upper Contract Rent Quartile"]
+       },
+       {
+        "table_id": "B25060",
+        "variables":["Aggregate Contract Rent"]
+       },
+       {
+        "table_id": "B25061",
+        "variables":["Rent Asked"]
+       },
+       {
+        "table_id": "B25062",
+        "variables":["Aggregate Rent Asked"]
+       },
+       {
+        "table_id": "B25063",
+        "variables":["Gross Rent"]
+       },
+       {
+        "table_id": "B25064",
+        "variables":["Median Gross Rent"]
+       },
+       {
+        "table_id": "B25065",
+        "variables":["Aggregate Gross Rent"]
+       },
+       {
+        "table_id": "B25066",
+        "variables":["Aggregate Gross Rent", "Units in Structure"]
+       },
+       {
+        "table_id": "B25067",
+        "variables":["Aggregate Gross Rent", "Meals Included in Rent"]
+       },
+       {
+        "table_id": "B25068",
+        "variables":["Aggregate Gross Rent", "Number of Bedrooms"]
+       },
+       {
+        "table_id": "B25069",
+        "variables":["Inclusion of Utilities in Rent"]
+       },
+       {
+        "table_id": "B25070",
+        "variables":["Gross Rent as a Percentage of Household Income"]
+       },
+       {
+        "table_id": "B25071",
+        "variables":["Median Gross Rent as a Percentage of Household Income"]
+       },
+       {
+        "table_id": "B25072",
+        "variables":["Gross Rent as a Percentage of Household Income", "Age of Householder"]
+       },
+       {
+        "table_id": "B25074",
+        "variables":["Gross Rent as a Percentage of Household Income", "Household Income"]
+       },
+       {
+        "table_id": "B25075",
+        "variables":["Home Value"]
+       },
+       {
+        "table_id": "B25076",
+        "variables":["Lower Home Value Quartile"]
+       },
+       {
+        "table_id": "B25077",
+        "variables":["Median Home Value"]
+       },
+       {
+        "table_id": "B25077A",
+         "variables": ["Median Value", "Race", "Race of Householder"]
+      },
+      {
+        "table_id": "B25077B",
+         "variables": ["Median Value", "Race", "Race of Householder"]
+      },
+     {
+       "table_id": "B25077C",
+        "variables": ["Median Value", "Race", "Race of Householder"]
+     },
+    {
+       "table_id":"B25077D",
+       "variables": ["Median Value", "Race", "Race of Householder"]
+      },
+    {
+      "table_id": "B25077E",
+       "variables": ["Median Value", "Race", "Race of Householder"]
+    },
+    {
+      "table_id": "B25077F",
+       "variables": ["Median Value", "Race", "Race of Householder"]
+     },
+     {
+        "table_id": "B25077G",
+         "variables": ["Median Value", "Race", "Race of Householder"]
+      },
+      {
+        "table_id": "B25077H",
+         "variables": ["Median Value", "Race", "Race of Householder"]
+      },
+      {
+        "table_id": "B25077I",
+         "variables": ["Median Value", "Race", "Race of Householder"]
+      },
+      {
+        "table_id": "B25078",
+        "variables": ["Upper Home Value Quartile"]
+      },
+      {
+        "table_id": "B25079",
+        "variables": ["Aggregate Home Value", "Age of Householder"]
+      },
+      {
+        "table_id": "B25080",
+        "variables": ["Aggregate Home Value", "Units in Structure"]
+      },
+      {
+        "table_id": "B25081",
+        "variables": ["Mortgage Status"]
+      },
+      {
+        "table_id": "B25082",
+        "variables": ["Aggregate Home Value", "Mortgage Status"]
+      },
+      {
+        "table_id": "B25083",
+        "variables": ["Median Home Value", "Median Home Value for Mobile Homes"]
+      },
+      {
+        "table_id": "B25085",
+        "variables": ["Price Asked"]
+      },
+      {
+        "table_id": "B25086",
+        "variables": ["Aggregate Price Asked"] // what's the purpose of this? the sum of all price asked?
+      },
+      {
+        "table_id": "B25087",
+        "variables": ["Mortgage Status", "Selected Monthly Owner Costs"]
+      },
+      {
+        "table_id": "B25088",
+        "variables": ["Mortgage Status", "Median Selected Monthly Owner Costs"]
+      },
+      {
+        "table_id": "B25089",
+        "variables": ["Mortgage Status", "Aggregate Selected Monthly Owner Costs"]
+      },
+      {
+        "table_id": "B25090",
+        "variables": ["Mortgage Status", "Aggregate Real Estate Taxes Paid"]
+      },
+     {
+      "table_id":"B25091",
+      "variables": ["Mortgage Status", "Selected Monthly Owner Costs as a Percentage of Household Income"]
+      },
+      {
+        "table_id":"B25092",
+        "variables": ["Median Selected Monthly Owner Costs as a Percentage of Household Income"]
+        },
+    {
+        "table_id":"B25093",
+        "variables": ["Age of Householder", "Selected Monthly Owner Costs as a Percentage of Household Income"]
+    },
+    {
+        "table_id":"B25093",
+        "variables": ["Household Income", "Selected Monthly Owner Costs as a Percentage of Household Income"]
+    },
+    {
+       "table_id": "B25094",
+       "variables":["Selected Monthly Owner Costs"]
+     },
+    {
+      "table_id": "B25095",
+      "variables": ["Household Income", "Monthly Owner Costs"]
+    },
+    {
+        "table_id": "B25096",
+        "variables": ["Mortgage Status", "Home Value"]
+      },
+      {
+        "table_id": "B25097",
+        "variables": ["Mortgage Status", "Median Home Value"]
+      },
+    {
+       "table_id": "B25098",
+       "variables": ["Mortgage Status", "Household Income"]
+     },
+     {
+      "table_id":"B25099",
+       "variables": ["Mortgage Status", "Median Household Income"]
+      },
+      {
+        "table_id": "B25100",
+        "variables": ["Mortgage Status", "Ratio of Home Value to Household Income"]
+      },
+      {
+        "table_id": "25101",
+        "variables": ["Mortgage Status", "Monthly Housing Costs as a Percentage of Household Income"]
+      },
+      {
+        "table_id":"B25102",
+        "variables": ["Mortgage Status", "Real Estate Taxes Paid"]
+      },
+      {
+        "table_id":"B25103",
+        "variables": ["Mortgage Status", "Median Real Estate Taxes Paid"]
+      },
+    {
+      "table_id": "B25104",
+      "variables": ["Monthly Housing Costs"]
+    },
+    {
+      "table_id": "B25105",
+      "variables": ["Median Monthly Housing Costs"]
+    },
+    {
+      "table_id": "B25106",
+       "variables": ["Tenure", "Monthly Housing Costs as a Percentage of Household Income"]
+     },
+     {
+      "table_id": "B25107",
+       "variables": ["Median Home Value", "Year Structure Built"]
+     },
+     {
+      "table_id": "B25108",
+       "variables": ["Aggregate Home Value", "Year Structure Built"]
+     },
+     {
+      "table_id":"B25109",
+       "variables": ["Median Home Value", "Year Householder Moved Into Unit"]
+     },
+    {
+       "table_id": "B25110",
+        "variables": ["Aggregate Home Value", "Year Householder Moved Into Unit"]
+     },
+     {
+      "table_id":"B25111",
+       "variables": ["Median Home Value", "Year Structure Built"]
+     },
+     {
+      "table_id": "B25112",
+      "variables": ["Aggregate Gross Rent", "Year Structure Built"]
+    },
+    {
+      "table_id": "B25113",
+      "variables": ["Median Gross Rent", "Year Householder Moved Into Unit"]
+    },
+     {
+       "table_id": "B25114",
+       "variables": ["Aggregate Gross Rent", "Year Householder Moved Into Unit"]
+     },
+     {
+       "table_id": "B25115",
+       "variables":["Tenure", "Household Type", "Presence and Age of Own Children"]
+     },
+    {
+      "table_id": "B25116",
+        "variables":["Tenure", "Household Size", "Age of Householder"]
+     },
+     {
+      "table_id":"B25117",
+       "variables": ["Tenure", "House Heating Fuel"]
+     },
+    {
+      "table_id": "B25118",
+       "variables": ["Tenure", "Household Income"]
+     },
+     {
+      "table_id": "B25119",
+       "variables": ["Tenure", "Aggregate Household Income"]
+     },
+     {
+      "table_id": "B25120",
+       "variables": ["Tenure", "Median Household Income"]
+     },
+    {
+       "table_id": "B25121",
+       "variables": ["Household Income", "Home Value"]
+     },
+     {
+      "table_id": "B25122",
+        "variables": ["Household Income", "Gross Rent"]
+     },
+     {
+      "table_id": "B25123",
+      "variables": ["Tenure", "Selected Physical and Financial Conditions"]
+     },
+    {
+      "table_id": "B25124",
+      "variables": ["Tenure", "Household Size", "Units in Structure"]
+    },
+    {
+      "table_id": "B25125",
+      "variables": ["Tenure", "Age of Householder", "Units in Structure"]
+      },
+    {
+      "table_id": "B25126",
+      "variables": ["Tenure", "Age of Householder", "Year Structure Built"]
+      },
+    {
+      "table_id": "B25127",
+      "variables": ["Tenure", "Year Structure Built", "Units in Structure"]
+      },
+    {
+      "table_id": "B25128",
+        "variables": ["Tenure", "Age of Householder", "Year Householder Moved Into Unit"]
+    },
+    {
+      "table_id": "B25129",
+        "variables": ["Tenure", "Year Householder Moved Into Unit", "Units in Structure"]
+     },
+     {
+      "table_id": "B25130",
+      "variables": ["Other Vacancy Status"]
+     },
+     {
+      "table_id": "B25131",
+      "variables": ["Vacancy Duration"]
+     },
+     {
+      "table_id": "B25132",
+      "variables": ["Monthly Electricity Costs"]
+     },
+    {
+       "table_id": "B25133",
+       "variables": ["Monthly Gas Costs"]
+      },
+    {
+      "table_id": "B25134",
+        "variables": ["Annual Water and Sewer Costs"]
+    },
+    {
+      "table_id": "B25135",
+        "variables": ["Annual Other Fuel Costs"]
+    },
+    {
+      "table_id": "B25136",
+       "variables":["Structure Type", "Occupancy Status"]
+     },
+    {
+      "table_id": "B25137",
+       "variables": ["Number of Bedrooms", "Occupancy Status"]
+     },
+     {
+      "table_id": "B25138",
+        "variables": ["Lower Gross Rent Quartile"]
+    },
+    {
+      "table_id": "B25139",
+        "variables": ["Upper Gross Rent Quartile"]
+    },
+    {
+      "table_id": "B25140",
+       "variables": ["Monthly Housing Costs as a Percentage of Household Income"]
+    },
+     {
+       "table_id": "B25140A",
+        "variables": ["Housing Costs as a Percentage of Household Income", "Race", "Race of Householder"]
+     },
+    {
+      "table_id": "B25140B",
+        "variables": ["Housing Costs as a Percentage of Household Income", "Race", "Race of Householder"]
+     },
+     {
+       "table_id": "B25140C",
+        "variables": ["Housing Costs as a Percentage of Household Income", "Race", "Race of Householder"]
+     },
+    {
+      "table_id": "B25140D",
+       "variables":["Housing Costs as a Percentage of Household Income", "Race", "Race of Householder"]
+     },
+    {
+       "table_id":"B25140E",
+       "variables": ["Housing Costs as a Percentage of Household Income", "Race", "Race of Householder"]
+     },
+    {
+       "table_id": "B25140F",
+       "variables": ["Housing Costs as a Percentage of Household Income", "Race", "Race of Householder"]
+      },
+    {
+       "table_id": "B25140G",
+        "variables":["Housing Costs as a Percentage of Household Income", "Race", "Race of Householder"]
+      },
+    {
+       "table_id": "B25140H",
+       "variables": ["Housing Costs as a Percentage of Household Income", "Race", "Race of Householder", "White Alone, Not Hispanic or Latino Origin"]
+     },
+     {
+      "table_id": "B25140I",
+      "variables": ["Housing Costs as a Percentage of Household Income", "Race", "Race of Householder", "Hispanic or Latino Origin"]
+    },
+    {
+      "table_id":"B25401",
+      "variables": ["Home Owners Insurance Costs", "Mortgage Status"]
+    },
+    {
+      "table_id": "B26001",
+      "variables": ["Group Quarters"]
+    },
+    {
+      "table_id": "B26101",
+      "variables": ["Group Quarters Type", "Sex", "Age"]
+    },
+    {
+      "table_id": "B26102",
+      "variables": ["Median Age", "Group Quarters Type"]
+    },
+    {
+      "table_id": "B26103",
+      "variables": ["Group Quarters Type"]
+    },
+    {
+      "table_id": "B26104",
+      "variables": ["Group Quarters Type", "Marital Status"]
+    },
+    {
+      "table_id": "B26105",
+      "variables": ["Group Quarters Type", "School Enrollment"]
+    },
+    {
+      "table_id": "B26106",
+      "variables": ["Group Quarters Type", "Educational Attainment"]
+    },
+    {
+      "table_id": "B26107",
+      "variables": ["Group Quarters Type", "Veteran Status"]
+    },
+    {
+      "table_id": "B26108",
+      "variables": ["Group Quarters Type", "Age", "Disability Status"]
+    },
+    {
+      "table_id": "B26109",
+        "variables": ["Group Quarters Type", "Geographical Mobility"]
+    },
+    {
+       "table_id": "B26110",
+        "variables": ["Group Quarters Type", "Nativity", "Citizenship Status", "Sex"]
+    },
+    {
+      "table_id": "B26113",
+       "variables": ["Group Quarters Type", "Language Spoken at Home", "Ability to Speak English"]
+     },
+     {
+      "table_id": "B26114",
+        "variables": ["Group Quarters Type", "Employment Status"]
+    },
+    {
+      "table_id": "B26115",
+        "variables": ["Group Quarters Type", "Occupation"]
+    },
+    {
+      "table_id": "B26117",
+        "variables": ["Group Quarters Type", "Sex"]
+    },
+    {
+      "table_id": "B26117",
+        "variables": ["Group Quarters Type", "Sex", "Aggregate Earnings"]
+    },
+     {
+      "table_id": "B26119",
+       "variables": ["Median Earnings", "Group Quarters Type", "Sex"]
+     },
+    {
+      "table_id": "B26120",
+       "variables": ["Group Quarters Type", "Receipt of Food Stamps/SNAP"]
+    },
+     {
+      "table_id": "B26201",
+       "variables":["Group Quarters Type", "Sex", "Age"]
+      },
+    {
+      "table_id": "B26202",
+       "variables": ["Median Age", "Group Quarters Type"]
+     },
+     {
+      "table_id":"B26203",
+      "variables": ["Group Quarters Type"]
+   },    
+   {
+      "table_id":"B26203A",
+      "variables": ["Group Quarters Type", "Race"]
+  }, 
+  {
+      "table_id":"B26203B",
+      "variables": ["Group Quarters Type", "Race"]
+  },
+    {
+       "table_id":"B26203C",
+       "variables": ["Group Quarters Type", "Race"]
+    },
+    {
+       "table_id": "B26203D",
+       "variables":["Group Quarters Type", "Race"]
+     },
+     {
+      "table_id": "B26203E",
+      "variables":["Group Quarters Type", "Race"]
+    },
+    {
+      "table_id": "B26203F",
+      "variables":["Group Quarters Type", "Race"]
+    },
+    {
+      "table_id": "B26203G",
+      "variables":["Group Quarters Type", "Race"]
+    },
+     {
+      "table_id": "B26203H",
+        "variables": ["Group Quarters Type", "Race", "White Alone, Not Hispanic or Latino Origin"]
+     },
+    {
+      "table_id":"B26203I",
+      "variables": ["Group Quarters Type", "Race", "Hispanic or Latino Origin"]
+     },
+     {
+      "table_id": "B26204",
+      "variables": ["Group Quarters Type", "Marital Status"]
+    },
+    {
+      "table_id": "B26205",
+      "variables": ["Group Quarters Type", "School Enrollment"]
+    },
+     {
+      "table_id": "B26206",
+      "variables": ["Group Quarters Type", "Educational Attainment"]
+    },
+    {
+       "table_id": "B26207",
+        "variables": ["Group Quarters Type", "Veteran Status"]
+      },
+    {
+      "table_id": "B26208",
+        "variables":["Group Quarters Type", "Age", "Disability Status"]
+    },
+    {
+      "table_id": "B26209",
+       "variables":["Group Quarters Type", "Geographical Mobility"]
+     },
+    {
+      "table_id": "B26210",
+        "variables": ["Group Quarters Type", "Nativity", "Citizenship Status", "Sex"]
+    },
+    {
+      "table_id":"B26211",
+      "variables":["Group Quarters Type", "Year of Entry"]
+     },
+     {
+       "table_id":"B26212",
+       "variables": ["Group Quarters Type", "World Region of Birth"]
+     },
+    {
+      "table_id": "B26213",
+       "variables": ["Group Quarters Type", "Language Spoken at Home", "Ability to Speak English"]
+    },
+    {
+      "table_id":"B26214",
+      "variables": ["Group Quarters Type", "Employment Status"]
+    },
+    {
+      "table_id":"B26215",
+      "variables": ["Group Quarters Type", "Occupation"]
+    },
+    {
+      "table_id": "B26216",
+        "variables": ["Aggregate Income", "Group Quarters Type"]
+    },
+    {
+      "table_id":"B26217",
+       "variables": ["Group Quarters Type", "Sex"]
+     },
+     {
+      "table_id":"B26218",
+       "variables": ["Group Quarters Type", "Sex", "Aggregate Earnings"]
+     },
+     {
+      "table_id":"B26219",
+       "variables": ["Group Quarters Type", "Sex", "Median Earnings"]
+     },
+     {
+      "table_id":"B26220",
+      "variables":["Group Quarters Type", "Receipt of Food Stamps/SNAP"]
+    },
+    {
+      "table_id":"B27001",
+      "variables":["Health Insurance Coverage Status", "Sex", "Age"]
+      },
+    {
+      "table_id":"B27002",
+      "variables":["Private Health Insurance Coverage", "Sex", "Age"]
+      },
+    {
+      "table_id":"B27003",
+      "variables":["Public Health Insurance Coverage", "Sex", "Age"]
+      },
+    {
+      "table_id":"B27004",
+      "variables":["Employer-based Health Insurance Coverage", "Sex", "Age"]
+      },
+    {
+      "table_id":"B27005",
+      "variables":["Direct-Purchase Health Insurance Coverage", "Sex", "Age"]
+      },
+    {
+      "table_id":"B27006",
+      "variables":["Medicare Coverage", "Sex", "Age"]
+      },
+    {
+      "table_id":"B27007",
+      "variables":["Medicaid/Means-Tested Public Coverage", "Sex", "Age"]
+     },
+     {
+      "table_id":"B27008",
+       "variables": ["TRICARE/Military Health Care", "Sex", "Age"]
+     },
+     {
+      "table_id":"B27009",
+       "variables": ["VA Health Care", "Sex", "Age"]
+     },
+     {
+      "table_id":"B27010",
+       "variables": ["Types of Health Insurance Coverage", "Age"]
+     },
+     {
+      "table_id":"B27011",
+       "variables": ["Health Insurance Coverage Status", "Age"]
+     },
+     {
+      "table_id":"B27012",
+       "variables": ["Health Insurance Coverage Status", "Types of Health Insurance Coverage","Work Experience","Sex"]
+     },    {
+      "table_id":"B27013",
+      "variables":["Private Health Insurance Coverage", "Work Experience","Sex"]
+      },
+    {
+      "table_id":"B27014",
+      "variables":["Public Health Insurance Coverage", "Work Experience","Sex"]
+      },
+     {
+      "table_id": "B27015",
+       "variables": ["Health Insurance Coverage", "Types of Health Insurance Coverage", "Household Income"]
+     },
+     {
+      "table_id": "B27016",
+       "variables": ["Health Insurance Coverage", "Types of Health Insurance Coverage", "Ratio of Income to Poverty Level"]
+     },
+     {
+      "table_id": "B27017",
+       "variables": ["Private Health Insurance Coverage", "Ratio of Income to Poverty Level", "Age"]
+     },
+     {
+      "table_id": "B27018",
+       "variables": ["Public Health Insurance Coverage", "Ratio of Income to Poverty Level", "Age"]
+     },
+     {
+      "table_id": "B27019",
+       "variables": ["Health Insurance Coverage", "Types of Health Insurance Coverage", "Age", "Educational Attainment"]
+     },
+     {
+      "table_id": "B27020",
+       "variables": ["Health Insurance Coverage", "Types of Health Insurance Coverage", "Citizenship Status"]
+     },
+     {
+      "table_id": "B27021",
+       "variables": ["Health Insurance Coverage", "Types of Health Insurance Coverage", "Living Arragement"]
+     },
+     {
+      "table_id": "B27022",
+      "variables": ["Health Insurance Coverage Status", "Sex", "Enrollment Status"]
+     },
+     {
+      "table_id": "B27023",
+      "variables": ["Private Health Insurance Coverage", "Sex", "Enrollment Status"]
+     },
+     {
+      "table_id": "B28001",
+      "variables": ["Types of Computers"]
+     },
+     {
+      "table_id": "B28002",
+      "variables": ["Presence of Internet Subscriptions", "Types of Internet Subscriptions"]
+     },
+     {
+      "table_id": "B28003",
+      "variables": ["Types of Internet Subscriptions", "Presence of a Computer"]
+     },
+     {
+      "table_id": "B28004",
+      "variables": ["Household Income", "Presence of Internet Subscriptions", "Types of Internet Subscriptions"]
+     },
+     {
+      "table_id": "B28005",
+      "variables": ["Age", "Presence of Computer", "Types of Internet Subscriptions"]
+     },
+     {
+      "table_id": "B28006",
+      "variables": ["Educational Attainment", "Presence of Computer", "Types of Internet Subscriptions"]
+     },
+     {
+      "table_id": "B28007",
+      "variables": ["Labor Force Status", "Presence of Computer", "Types of Internet Subscriptions"]
+     },
+     {
+      "table_id": "B28008",
+      "variables": ["Presence of Computer", "Types of Internet Subscriptions"]
+     },
+     {
+      "table_id": "B28009A",
+      "variables": ["Presence of Computer", "Types of Internet Subscriptions", "Race", ""]
+     },
+     {
+      "table_id": "B28009B",
+      "variables": ["Presence of Computer", "Types of Internet Subscriptions", "Race", ""]
+     },
+     {
+      "table_id": "B28009C",
+      "variables": ["Presence of Computer", "Types of Internet Subscriptions", "Race", ""]
+     },
+     {
+      "table_id": "B28009D",
+      "variables": ["Presence of Computer", "Types of Internet Subscriptions", "Race", ""]
+     },
+     {
+      "table_id": "B28009E",
+      "variables": ["Presence of Computer", "Types of Internet Subscriptions", "Race", ""]
+     },
+     {
+      "table_id": "B28009F",
+      "variables": ["Presence of Computer", "Types of Internet Subscriptions", "Race", ""]
+     },
+     {
+      "table_id": "B28009G",
+      "variables": ["Presence of Computer", "Types of Internet Subscriptions", "Race", ""]
+     },
+     {
+      "table_id": "B28009H",
+      "variables": ["Presence of Computer", "Types of Internet Subscriptions", "Race", ""]
+     },
+     {
+      "table_id": "B28009I",
+      "variables": ["Presence of Computer", "Types of Internet Subscriptions", "Race", ""]
+     },
+     {
+      "table_id":"B28010",
+      "variables": ["Computers"]
+     },
+     {
+      "table_id":"B28011",
+      "variables": ["Internet Subscription"]
+     },
+     {
+      "table_id":"B28012",
+      "variables": ["Age", "Enrollment Status", "Computer Ownership", "Internet Subscription"]
+     },
+     {
+      "table_id":"B29001",
+      "variables": ["Age"] //universe: citizen and voting age population
+     },
+     {
+      "table_id":"B29002",
+      "variables": ["Educational Attainment"]
+     },
+     {
+      "table_id":"B29003",
+      "variables": ["Poverty Status"]
+     },
+     {
+      "table_id":"B29004",
+      "variables": ["Median Household Income"]
+     },
+    {
+      "table_id": "B98001",
+       "variables": ["Unweighted Housing Unit Sample"]
+     },
+    {
+       "table_id":"B98002",
+        "variables": ["Unweighted Group Quarters Population Sample"]
+     },
+    {
+      "table_id":"B98003",
+      "variables": ["Unweighted Population Sample"]
+    },
+    {
+      "table_id":"B98011",
+      "variables": ["Housing Unit Coverage Rate"]
+     },
+    {
+      "table_id":"B98012",
+      "variables": ["Population Coverage Rate", "Sex"]
+    },
+    {
+       "table_id":"B98013",
+       "variables": ["Population Coverage Rate", "Race", "Hispanic or Latino Origin"]
+     },
+    {
+      "table_id":"B98014",
+       "variables": ["Group Quarters Population Coverage Rate"]
+     },
+    {
+      "table_id":"B98021",
+        "variables": ["Housing Unit Response Rate", "Nonresponse Reasons"]
+    },
+    {
+       "table_id": "B98022",
+       "variables": ["Group Quarters Population Response Rate", "Nonresponse Reasons"]
+     },
+     {
+       "table_id": "B99012",
+       "variables": ["Allocation of Age"]
+      },
+     {
+      "table_id":"B99021",
+       "variables": ["Allocation of Race"]
+      },
+    {
+      "table_id":"B99031",
+       "variables": ["Allocation of Hispanic or Latino Origin"]
+    },
+    {
+       "table_id": "B99051",
+        "variables": ["Allocation of Citizenship Status"]
+     },
+    {
+       "table_id":"B99052",
+       "variables": ["Allocation of Year of Entry"]
+    },
+     {
+       "table_id":"B99052PR",
+        "variables": ["Allocation of Year of Entry"]
+     },
+     {
+      "table_id": "B99257",
+      "variables": ["Allocation of Year Householder Moved Into Unit"]
+     },
+    {
+      "table_id": "B99258",
+      "variables": ["Allocation of Bedrooms"]
+    },
+     {
+      "table_id":"B99259",
+      "variables": ["Allocation of Plumbing Facilities"]
+     }
+   ]
+}
