@@ -1,20 +1,32 @@
 # This script is designed to run a local LLM to answer questions about the American Community Survey (ACS) B and C tables.
 # Gareth Minson-Efimov
 # 2025-03-13
-from gpt4all import GPT4All
 
+# Packages
+from gpt4all import GPT4All
+import random
+import json
+
+# set seed
+random.seed(16)
 
 def load_text_file(filepath):
     """Loads the contents of a text file into a string."""
     try:
         with open(filepath, "r", encoding="utf-8") as file:
-            return file.read()
+            return json.load(file)
     except FileNotFoundError:
         return None
 
-file_path = "public_data/02_review/table_variable_matches.txt"  # Replace with your file path
+file_path = "public_data/03_processed/b_c_tables.json"  # Replace with your file path
 file_content = load_text_file(file_path)
-file_content_short = file_content[:1000]  # Shorten for context size
+
+table_items = list(file_content.items())
+random.shuffle(table_items)
+sample_data = dict(table_items[:5]) 
+
+# Convert the sample dictionary to a string
+sample_data = json.dumps(sample_data)
 
 if file_content is None:
     print(f"Error: Could not load file from {file_path}")
@@ -25,7 +37,7 @@ You are an expert policy analyst working for the U.S. Census Bureau. Your role i
 
 **Data File (ACS Table Information):**
 
-{file_content_short}
+{sample_data}
 
 **Instructions for Using the Data File:**
 
