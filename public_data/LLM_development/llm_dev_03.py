@@ -6,6 +6,8 @@
 from gpt4all import GPT4All
 import random
 import json
+import streamlit as st
+import time
 
 # set seed
 random.seed(16)
@@ -69,19 +71,65 @@ You are an expert policy analyst working for the U.S. Census Bureau. Your role i
 # Initialize GPT4All with the model name. Replace with actual model path if needed.
 model = GPT4All("Meta-Llama-3-8B-Instruct.Q4_0.gguf")
 
-def generate_response(user_input):
+def generate_prompt(user_input):
     prompt = f"{system_prompt}\n\nUser: {user_input}\nAssistant:"
     return prompt
 
+# with model.chat_session():
+#     try:
+#         while True:
+#             user_query = input("Enter your question (or type 'exit' to quit): ")
+#             if user_query.lower() == "exit":
+#                 break
+#             prompt = generate_response(user_query)
+#             answer = model.generate(prompt, max_tokens=1024)
+#             print(f"Assistant: {answer}\n")
+#     except KeyboardInterrupt:
+#         print("\nExiting...")
+#     except Exception as e:
+#         print(f"An error occurred: {e}")
+
+# App Dev
+st.write("Census Bureau Chatbot")
+
+st.caption("This might not work")
+
+# Initialize chat history
+if "messages" not in st.session_state:
+    st.session_state.messages = [{"role": "assistant", "content": "How can I help you?"}]
+
+# Display chat messages from history on app rerun
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+# Accept user input
 with model.chat_session():
     try:
         while True:
-            user_query = input("Enter your question (or type 'exit' to quit): ")
-            if user_query.lower() == "exit":
-                break
-            prompt = generate_response(user_query)
-            answer = model.generate(prompt, max_tokens=1024)
-            print(f"Assistant: {answer}\n")
+            prompt = st.chat_input("Enter your question (or type 'exit' to quit): ")
+            quiet_prompt = generate_prompt(prompt.lower())
+            # Add user message to chat history
+            st.session_state.messages.append({"role": "user", "content": prompt})
+            # Display user message in chat message container
+            with st.chat_message("user"):
+                st.markdown(prompt)
+
+            # Display assistant response in chat message container
+            with st.chat_message("assistant"):
+                message_placeholder = st.empty()
+                full_response = ""
+                assistant_response = model.generate(quiet_prompt, max_tokens=1024)
+                # Simulate stream of response with milliseconds delay
+                for chunk in assistant_response.split():
+                    full_response += chunk + " "
+                    time.sleep(0.05)
+                    # Add a blinking cursor to simulate typing
+                    message_placeholder.markdown(full_response + "▌")
+                message_placeholder.markdown(full_response)
+            # Add assistant response to chat history
+            st.session_state.messages.append({"role": "assistant", "content": full_response})
+
     except KeyboardInterrupt:
         print("\nExiting...")
     except Exception as e:
