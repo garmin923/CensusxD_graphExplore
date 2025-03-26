@@ -27,6 +27,8 @@ table_items = list(file_content.items())
 random.shuffle(table_items)
 sample_data = dict(table_items[:5]) 
 
+print("Tables: ", sample_data.keys())  # Print the keys of the sample data for debugging
+
 # Convert the sample dictionary to a string
 sample_data = json.dumps(sample_data)
 
@@ -69,25 +71,11 @@ You are an expert policy analyst working for the U.S. Census Bureau. Your role i
 """
 
 # Initialize GPT4All with the model name. Replace with actual model path if needed.
-model = GPT4All("Meta-Llama-3-8B-Instruct.Q4_0.gguf")
+model = GPT4All("Meta-Llama-3-8B-Instruct.Q4_0.gguf", verbose=False)
 
 def generate_prompt(user_input):
     prompt = f"{system_prompt}\n\nUser: {user_input}\nAssistant:"
     return prompt
-
-# with model.chat_session():
-#     try:
-#         while True:
-#             user_query = input("Enter your question (or type 'exit' to quit): ")
-#             if user_query.lower() == "exit":
-#                 break
-#             prompt = generate_response(user_query)
-#             answer = model.generate(prompt, max_tokens=1024)
-#             print(f"Assistant: {answer}\n")
-#     except KeyboardInterrupt:
-#         print("\nExiting...")
-#     except Exception as e:
-#         print(f"An error occurred: {e}")
 
 # App Dev
 st.write("Census Bureau Chatbot")
@@ -119,7 +107,7 @@ with model.chat_session():
             with st.chat_message("assistant"):
                 message_placeholder = st.empty()
                 full_response = ""
-                assistant_response = model.generate(quiet_prompt, max_tokens=1024)
+                assistant_response = model.generate(quiet_prompt, max_tokens=1024, temperature=0.5, top_p=0.9, n_batch=1, n_predict=4, streaming=True)
                 # Simulate stream of response with milliseconds delay
                 for chunk in assistant_response.split():
                     full_response += chunk + " "
