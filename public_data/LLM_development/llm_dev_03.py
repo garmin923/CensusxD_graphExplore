@@ -96,7 +96,8 @@ with model.chat_session():
     try:
         while True:
             prompt = st.chat_input("Enter your question (or type 'exit' to quit): ")
-            quiet_prompt = generate_prompt(prompt.lower())
+            print(prompt)
+            quiet_prompt = generate_prompt(prompt)
             # Add user message to chat history
             st.session_state.messages.append({"role": "user", "content": prompt})
             # Display user message in chat message container
@@ -107,7 +108,7 @@ with model.chat_session():
             with st.chat_message("assistant"):
                 message_placeholder = st.empty()
                 full_response = ""
-                assistant_response = model.generate(quiet_prompt, max_tokens=1024, temperature=0.5, top_p=0.9, n_batch=1, n_predict=4, streaming=True)
+                assistant_response = model.generate(quiet_prompt, max_tokens=1024, temp=0.5,)
                 # Simulate stream of response with milliseconds delay
                 for chunk in assistant_response.split():
                     full_response += chunk + " "
