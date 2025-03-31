@@ -45,5 +45,9 @@ docs/
 # translation temp files
 po/*~
 
-# RStudio Connect folder
+# Folders
 rsconnect/
+chroma_db/
+lib/
+Private/
+02_review/
