@@ -20,7 +20,7 @@ def load_text_file(filepath):
     except FileNotFoundError:
         return None
 
-file_path = "public_data/03_processed/b_c_tables.json"  # Replace with your file path
+file_path = "LLM_development/b_c_tables.json"  # Replace with your file path
 file_content = load_text_file(file_path)
 
 table_items = list(file_content.items())
